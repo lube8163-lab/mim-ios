@@ -1,6 +1,8 @@
 # Mim (iOS)
 
-![Mim feed screenshot](screenshots/feed.png)
+<p align="center">
+  <img src="screenshots/feed.png" width="320">
+</p>
 
 Mim is an experimental iOS social app that explores *semantic compression* of images.
 
