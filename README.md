@@ -1,5 +1,7 @@
 # Mim (iOS)
 
+![Mim feed screenshot](screenshots/feed.png)
+
 Mim is an experimental iOS social app that explores *semantic compression* of images.
 
 Instead of sharing raw images, Mim treats images as **semantic representations**
