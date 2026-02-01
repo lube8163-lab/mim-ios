@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="screenshots/feed.png" width="320">
+  <img src="screenshots/20260201_235403.GIF" width="320">
 </p>
 
 Mim is an experimental iOS social app that explores *semantic compression* of images.
