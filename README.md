@@ -61,6 +61,16 @@ This repository contains **application source code only**.
 
 ---
 
+## Source Code
+
+The iOS application source code is maintained in a separate repository:
+
+👉 https://github.com/lube8163-lab/mim-ios-app
+
+This repository focuses on project overview, documentation, and GitHub Pages hosting (Terms / Privacy).
+
+---
+
 ## Requirements
 
 - iOS 18+
