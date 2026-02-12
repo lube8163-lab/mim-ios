@@ -5,81 +5,70 @@
   <img src="screenshots/20260201_235403.GIF" width="320">
 </p>
 
-Mim is an experimental iOS social app that explores *semantic compression* of images.
+# Mim iOS App
 
-Instead of sharing raw images, Mim treats images as **semantic representations**
-and reconstructs them using on-device AI models.
+Mim is an experimental iOS social app focused on **semantic communication**: users share meaning, not raw pixels.
 
-This project is research-oriented and currently distributed via TestFlight.
+Instead of distributing original image files in the feed, Mim extracts semantic information from user-selected images and reconstructs visuals with on-device AI workflows.
 
----
+## What It Does
 
-## Features
+- Create social posts with text and/or images
+- Extract semantic signals from selected images
+- Generate prompts and reconstruct images using Stable Diffusion (when models are installed)
+- Show low-resolution guide previews while generation is in progress
+- Browse a timeline feed with likes and sharing
 
-- Post photos selected explicitly by the user
-- Semantic embedding and prompt generation on-device
-- Image reconstruction using Stable Diffusion (optional)
-- Feed-based social UI
-- Optional AI model download
+## Safety & UGC Moderation
 
----
+Mim is a UGC feed app and includes in-app safety controls:
 
-## Status
-
-- TestFlight External Beta
-- Experimental / Research project
-- Not intended for production use
-
----
-
-## TestFlight
-
-You can join the external beta here:
-
-👉 [https://testflight.apple.com/join/9UndzF6P](https://testflight.apple.com/join/9UndzF6P)
-
----
+- Email registration required before posting
+- Privacy Policy and Terms agreement required on first launch
+- In-app post reporting (`Timeline > Post menu > Report`)
+- In-app user blocking (`Timeline > Post menu > Block User`)
+- Blocked users’ posts are hidden from feed results
+- Keyword-based screening for text before submission
+- Reports are reviewed and actioned (content removal / account action) when needed
 
 ## Privacy
 
-- Photos are accessed **only via PhotosPicker**
+- Photos are accessed only through `PhotosPicker`
 - Only user-selected images are processed
-- No background access to the photo library
-- Image processing is primarily performed on-device
-- No tracking SDKs are used
+- No background photo library access
+- Core semantic/image processing is primarily on-device
+- No tracking SDKs are included
 
----
+## Models & Backend
 
-## Backend / Models
+- This repository contains the iOS client source code
+- AI models are optional and downloaded separately in-app
+- Model licenses are governed by their respective upstream terms
+- Backend services are used for social/feed features and moderation workflows
 
-This repository contains **application source code only**.
+## TestFlight
 
-- Production backend endpoints are **not included**
-- Model download URLs are **placeholders**
-- AI models are downloaded separately in the TestFlight build
-- Model licenses are respected individually
+External beta is available here:
 
----
-
-## Source Code
-
-The iOS application source code is maintained in a separate repository:
-
-👉 https://github.com/lube8163-lab/mim-ios-app
-
-This repository focuses on project overview, documentation, and GitHub Pages hosting (Terms / Privacy).
-
----
+[https://testflight.apple.com/join/9UndzF6P](https://testflight.apple.com/join/9UndzF6P)
 
 ## Requirements
 
 - iOS 18+
-- Devices with sufficient memory are recommended (iPhone 14+)
+- Recommended: newer devices with sufficient memory (e.g. iPhone 14 or later)
 
----
+## Status
+
+- External TestFlight beta
+- Experimental / research-oriented
+- Not intended as a production-ready release
 
 ## License
 
 Application source code is licensed under the Apache License 2.0.
 
-AI models are subject to their respective licenses and are not included in this repository.
+AI models are not bundled in this repository and remain under their own licenses.
+
+## Contact
+
+Developer contact: `lube8163@icloud.com`
