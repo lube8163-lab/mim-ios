@@ -7,9 +7,38 @@
 
 # Mim iOS App
 
-Mim is an experimental iOS social app focused on **semantic communication**: users share meaning, not raw pixels.
+Mim is an experimental iOS social app exploring **semantic communication** — sharing *meaning* instead of raw pixels.
 
-Instead of distributing original image files in the feed, Mim extracts semantic information from user-selected images and reconstructs visuals with on-device AI workflows.
+Instead of distributing original image files in the feed, Mim extracts semantic information from user-selected images and reconstructs visuals through on-device AI workflows.
+
+> Transmit meaning, not data.
+
+---
+
+## 🚀 Available on the App Store
+
+Mim is now available on the App Store:
+
+https://apps.apple.com/app/mim/id6756841673
+
+External TestFlight beta (if available):
+https://testflight.apple.com/join/9UndzF6P
+
+---
+
+## 🌱 Why Mim?
+
+Modern social platforms transmit large binary data (images, videos, media files).
+
+Mim experiments with a different idea:
+
+- Extract semantic signals from an image  
+- Transmit compact meaning representations  
+- Reconstruct visuals locally on the receiving device  
+
+This reduces raw data dependency and explores a privacy-preserving, meaning-first communication model.
+
+---
 
 ## What It Does
 
@@ -18,6 +47,8 @@ Instead of distributing original image files in the feed, Mim extracts semantic 
 - Generate prompts and reconstruct images using Stable Diffusion (when models are installed)
 - Show low-resolution guide previews while generation is in progress
 - Browse a timeline feed with likes and sharing
+
+---
 
 ## Safety & UGC Moderation
 
@@ -28,46 +59,52 @@ Mim is a UGC feed app and includes in-app safety controls:
 - In-app post reporting (`Timeline > Post menu > Report`)
 - In-app user blocking (`Timeline > Post menu > Block User`)
 - Blocked users’ posts are hidden from feed results
-- Keyword-based screening for text before submission
-- Reports are reviewed and actioned (content removal / account action) when needed
+- Keyword-based screening before submission
+- Reports are reviewed and actioned (content removal / account action) when necessary
+
+---
 
 ## Privacy
 
 - Photos are accessed only through `PhotosPicker`
 - Only user-selected images are processed
 - No background photo library access
-- Core semantic/image processing is primarily on-device
-- No tracking SDKs are included
+- Core semantic and image processing runs primarily on-device
+- No tracking SDKs included
+
+---
 
 ## Models & Backend
 
 - This repository contains the iOS client source code
 - AI models are optional and downloaded separately in-app
 - Model licenses are governed by their respective upstream terms
-- Backend services are used for social/feed features and moderation workflows
+- Backend services are used for feed delivery, user accounts, and moderation workflows
 
-## TestFlight
-
-External beta is available here:
-
-[https://testflight.apple.com/join/9UndzF6P](https://testflight.apple.com/join/9UndzF6P)
+---
 
 ## Requirements
 
 - iOS 18+
 - Recommended: newer devices with sufficient memory (e.g. iPhone 14 or later)
 
+---
+
 ## Status
 
-- External TestFlight beta
-- Experimental / research-oriented
-- Not intended as a production-ready release
+- ✅ App Store Release (v1.0)
+- Ongoing experimental development
+- Research-oriented project
+
+---
 
 ## License
 
 Application source code is licensed under the Apache License 2.0.
 
 AI models are not bundled in this repository and remain under their own licenses.
+
+---
 
 ## Contact
 
