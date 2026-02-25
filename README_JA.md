@@ -21,7 +21,11 @@ Mim は **semantic communication（意味による通信）** を実験する iO
 
 Mim は現在 App Store で公開中です：
 
-https://apps.apple.com/app/mim/id6756841673
+<p align="center">
+  <a href="https://apps.apple.com/app/mim/id6756841673">
+    <img src="screenshots/download-on-the-app-store-black-en-us/black.svg" height="65" alt="Download on the App Store">
+  </a>
+</p>
 
 外部 TestFlight ベータ：
 https://testflight.apple.com/join/9UndzF6P
