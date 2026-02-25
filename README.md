@@ -21,8 +21,26 @@ Mim is now available on the App Store:
 
 https://apps.apple.com/app/mim/id6756841673
 
-External TestFlight beta (if available):
+External TestFlight beta (if available):  
 https://testflight.apple.com/join/9UndzF6P
+
+---
+
+## 💻 Open Source Repository
+
+The public version of the iOS client source code is available here:
+
+👉 https://github.com/lube8163-lab/SemanticCompression-v2-public
+
+This repository contains a cleaned and publish-ready version of the Mim iOS client.
+
+- iOS app implementation
+- Semantic extraction workflow
+- Prompt generation pipeline
+- Feed UI structure
+- Model download management
+
+AI models are **not bundled** and must be downloaded separately in-app.
 
 ---
 
@@ -40,7 +58,7 @@ This reduces raw data dependency and explores a privacy-preserving, meaning-firs
 
 ---
 
-## What It Does
+## 🔬 What It Does
 
 - Create social posts with text and/or images
 - Extract semantic signals from selected images
@@ -50,7 +68,7 @@ This reduces raw data dependency and explores a privacy-preserving, meaning-firs
 
 ---
 
-## Safety & UGC Moderation
+## 🛡 Safety & UGC Moderation
 
 Mim is a UGC feed app and includes in-app safety controls:
 
@@ -64,7 +82,7 @@ Mim is a UGC feed app and includes in-app safety controls:
 
 ---
 
-## Privacy
+## 🔒 Privacy
 
 - Photos are accessed only through `PhotosPicker`
 - Only user-selected images are processed
@@ -74,7 +92,7 @@ Mim is a UGC feed app and includes in-app safety controls:
 
 ---
 
-## Models & Backend
+## 🤖 Models & Backend
 
 - This repository contains the iOS client source code
 - AI models are optional and downloaded separately in-app
@@ -83,14 +101,14 @@ Mim is a UGC feed app and includes in-app safety controls:
 
 ---
 
-## Requirements
+## 📱 Requirements
 
 - iOS 18+
 - Recommended: newer devices with sufficient memory (e.g. iPhone 14 or later)
 
 ---
 
-## Status
+## 📊 Status
 
 - ✅ App Store Release (v1.0)
 - Ongoing experimental development
@@ -98,7 +116,7 @@ Mim is a UGC feed app and includes in-app safety controls:
 
 ---
 
-## License
+## 📄 License
 
 Application source code is licensed under the Apache License 2.0.
 
@@ -106,6 +124,6 @@ AI models are not bundled in this repository and remain under their own licenses
 
 ---
 
-## Contact
+## 📬 Contact
 
 Developer contact: `lube8163@icloud.com`
