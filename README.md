@@ -17,9 +17,11 @@ Instead of distributing original image files in the feed, Mim extracts semantic 
 
 ## 🚀 Available on the App Store
 
-Mim is now available on the App Store:
-
-https://apps.apple.com/app/mim/id6756841673
+<p align="center">
+  <a href="https://apps.apple.com/app/mim/id6756841673">
+    <img src="screenshots/download-on-the-app-store-black-en-us/black.svg" height="65" alt="Download on the App Store">
+  </a>
+</p>
 
 External TestFlight beta (if available):  
 https://testflight.apple.com/join/9UndzF6P
