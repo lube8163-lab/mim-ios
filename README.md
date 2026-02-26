@@ -96,7 +96,6 @@ Mim is a UGC feed app and includes in-app safety controls:
 
 ## 🤖 Models & Backend
 
-- This repository contains the iOS client source code
 - AI models are optional and downloaded separately in-app
 - Model licenses are governed by their respective upstream terms
 - Backend services are used for feed delivery, user accounts, and moderation workflows
