@@ -70,6 +70,25 @@ This reduces raw data dependency and explores a privacy-preserving, meaning-firs
 
 ---
 
+## 🆕 Recent Updates
+
+- Added support for multiple on-device SD generation models (including SD1.5 + LCM variant)
+- Added model-aware generation presets (step count / guidance profile by selected model)
+- Added model-specific image cache keys to avoid cross-model cache mix-ups
+- Added in-app image regenerate action for current model cache
+- Improved model installer robustness for large downloads and varied server header behavior
+- Added UX notices around LCM behavior (speed-oriented mode, img2img-disabled workflow)
+
+---
+
+## 🛠 Model Notes
+
+- SD1.5 and SD1.5 (LCM) can be selected in-app when installed.
+- LCM mode is tuned for faster generation and currently runs as a text-to-image-oriented path in this app.
+- Depending on prompt/domain, SD1.5 may still provide more stable fidelity than LCM.
+
+---
+
 ## 🛡 Safety & UGC Moderation
 
 Mim is a UGC feed app and includes in-app safety controls:
@@ -102,6 +121,14 @@ Mim is a UGC feed app and includes in-app safety controls:
 
 ---
 
+## 🧭 Roadmap (Planned)
+
+- Similarity computation features for semantic/image comparison workflows
+- VLM integration experiments (including MoonDream) for richer captioning/understanding pipelines
+- Continued quality-speed tuning for on-device generation across model variants
+
+---
+
 ## 📱 Requirements
 
 - iOS 18+
@@ -111,7 +138,7 @@ Mim is a UGC feed app and includes in-app safety controls:
 
 ## 📊 Status
 
-- ✅ App Store Release (v1.0)
+- ✅ App Store Release (v1.0.2)
 - Ongoing experimental development
 - Research-oriented project
 
