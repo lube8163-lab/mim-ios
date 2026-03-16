@@ -30,11 +30,11 @@ https://testflight.apple.com/join/9UndzF6P
 
 ## 💻 Open Source Repository
 
-The public version of the iOS client source code is available here:
+The full source code of the Mim iOS client is available here:
 
-👉 https://github.com/lube8163-lab/SemanticCompression-v2-public
+👉 [https://github.com/lube8163-lab/mim-ios-app](https://github.com/lube8163-lab/mim-ios-app)
 
-This repository contains a cleaned and publish-ready version of the Mim iOS client.
+This is the **main repository** containing the complete implementation of the Mim iOS client.
 
 - iOS app implementation
 - Semantic extraction workflow
