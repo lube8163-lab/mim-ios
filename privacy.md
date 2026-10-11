@@ -1,43 +1,5 @@
 # Privacy Policy for Mim
 
-Mim is a beta social application that allows users to share images and interact with generated content.
+Effective date: 2026-10-11
 
-## Information We Collect
-
-- Account information provided by the user (such as username and email address)
-- Content uploaded by the user (images and related metadata)
-- Basic usage data for app functionality and debugging
-
-## How We Use Information
-
-- To provide and operate the core features of the app
-- To improve stability and user experience
-- To communicate with users regarding the app, if necessary
-
-## Data Storage and Security
-
-Data is transmitted using standard secure communication protocols (HTTPS).
-Image analysis and generation processes are performed locally on the user’s device whenever possible.
-
-## Third-Party Services
-
-Cloud infrastructure services may be used to store and process data.
-Apple-provided system services are used where applicable.
-
-## Tracking and Advertising
-
-Mim does not track users across apps or websites.
-Mim does not display third-party advertisements or sell user data.
-
-## User Control
-
-Users may request deletion of their account and associated data.
-
-## Changes
-
-This privacy policy may be updated during the beta period.
-
-## Contact
-
-For questions about this policy, please contact:
-lube8163@icloud.com
+The current policy is published in English and Japanese at [Privacy Policy](https://lube8163-lab.github.io/mim-ios/privacy.html). It explains on-device photo analysis, shared descriptions and generation information, optional uploaded profile photos, authentication, notifications, and account deletion.

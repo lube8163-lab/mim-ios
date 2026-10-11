@@ -33,37 +33,37 @@ h1, h2 {
 
 <h1>Privacy Policy for Mim</h1>
 
-<p><strong>Effective Date:</strong> 2026/02/08</p>
+<p><strong>Effective Date:</strong> 2026/10/11</p>
 
 <p>Mim is a privacy-focused experimental social application that allows users to share content using semantic and low-data representations instead of full-resolution images.</p>
 
 <h2>Information We Collect</h2>
 <ul>
 <li>Account information provided by the user (such as email address and username)</li>
-<li>User-generated content representations (such as semantic tags, metadata, and selected privacy-mode data)</li>
+<li>Posts, comments, photo descriptions, and structured generation information used to display posts</li>
 <li>Optional profile images explicitly uploaded by the user</li>
-<li>Basic diagnostic and usage data necessary for app functionality and stability</li>
+<li>Interactions needed for social features, such as likes, follows, blocks, and reports; device notification tokens and the selected app language when notifications are enabled</li>
 </ul>
 
 <h2>Privacy-Focused Image Handling</h2>
 <p>Mim is designed with data minimization in mind. Original full-resolution images selected by users are processed on-device and are not uploaded to the server for feed posting.</p>
 
-<p>When a user creates a post, the app transmits only limited representations depending on the selected privacy mode, which may include:</p>
+<p>For a photo post, analysis runs locally after the user submits the post. The app sends the post text, a photo description, and structured instructions for on-device image generation. These may include:</p>
 <ul>
-<li>Non-reversible semantic representations (e.g., tags or embeddings)</li>
-<li>ThumbHash or similar low-information representations</li>
-<li>Optional low-resolution images (e.g., 64×64 Base64), only if explicitly selected by the user</li>
+<li>Descriptions of subjects, appearance, composition, and surroundings</li>
+<li>A generation prompt and model settings needed to reconstruct the scene</li>
+<li>Post identifiers and processing status used to show progress or retry failures</li>
 </ul>
 
-<p>These representations are used solely to display content in the feed and to enable on-device reconstruction. Full-resolution original photos are not transmitted to external AI services.</p>
+<p>These descriptions and instructions are shared with viewers to reconstruct an image on their devices. They may reveal the contents of the original photo, so users should check the content they share. They are not encrypted private messages. Original photos used in posts are not uploaded, and generated feed images are cached locally.</p>
 
 <h2>On-Device AI Processing</h2>
-<p>Image analysis and reconstruction are primarily performed on the user’s device using on-device AI models. Mim does not use third-party AI APIs to process user images or personal data.</p>
+<p>Image analysis and reconstruction are performed on the user’s device using on-device AI models. Mim does not use third-party AI APIs to process user images or personal data.</p>
 
 <h2>Third-Party Services and Data Sharing</h2>
 <p>Mim does not sell, rent, or share personal data with third-party AI services.</p>
 
-<p>The app uses Cloudflare infrastructure (including Workers, D1, and R2) solely for secure data storage, synchronization, and content delivery. These services function as hosting and backend infrastructure and do not perform AI analysis on user content.</p>
+<p>The app uses Cloudflare (Workers, D1, and R2) for accounts, post storage, synchronization, and model delivery. Resend delivers email verification codes. Sign in with Apple and Apple Push Notification service support authentication and optional notifications. Internal moderation alerts may be sent to Discord with the information necessary to review a report. None of these services performs AI inference on user photos.</p>
 
 <p>No user personal data or images are sent to external AI providers such as OpenAI, Stability AI, or similar services.</p>
 
@@ -81,15 +81,15 @@ h1, h2 {
 <h2>User Consent and Control</h2>
 <p>Users must agree to the Privacy Policy and Terms of Service before using core features of the app. The app records consent status and timestamp for transparency.</p>
 
-<p>Users explicitly choose a privacy mode before posting content. Higher reconstruction modes may transmit low-resolution representations only after user selection.</p>
+<p>Users choose the content they post and whether to upload a profile photo. Notification permission is optional. Downloaded models, generated-image caches, and viewer-specific generation seeds are stored on the device. Model files and caches can be managed in the app settings.</p>
 
-<p>Users may request deletion of their account and associated data at any time.</p>
+<p>Users can delete their account and associated data from their profile settings or contact support for assistance.</p>
 
 <h2>Data Security</h2>
 <p>All data is transmitted using secure communication protocols (HTTPS). Reasonable technical and organizational measures are implemented to protect user data.</p>
 
 <h2>Tracking and Advertising</h2>
-<p>Mim does not track users across third-party apps or websites.  
+<p>Mim does not track users across third-party apps or websites.
 Mim does not use third-party advertising networks and does not sell user data.</p>
 
 <h2>Changes to This Policy</h2>
@@ -103,7 +103,7 @@ Mim does not use third-party advertising networks and does not sell user data.</
 
 <h1>プライバシーポリシー（参考日本語訳）</h1>
 
-<p><strong>発効日：</strong> 2026/02/08</p>
+<p><strong>発効日：</strong> 2026/10/11</p>
 
 <p><em>※本日本語訳は参考のためのものです。内容に相違がある場合は英語版が優先されます。</em></p>
 
@@ -112,30 +112,30 @@ Mim does not use third-party advertising networks and does not sell user data.</
 <h2>収集する情報</h2>
 <ul>
 <li>ユーザーが提供するアカウント情報（メールアドレス、ユーザー名など）</li>
-<li>ユーザー生成コンテンツの表現情報（意味タグ、メタデータ、選択されたプライバシーモード情報など）</li>
+<li>投稿、コメント、写真の説明、投稿表示に使う構造化された画像生成情報</li>
 <li>ユーザーが明示的にアップロードしたプロフィール画像</li>
-<li>アプリの機能維持および安定性確保のために必要な基本的診断・利用データ</li>
+<li>いいね、フォロー、ブロック、通報などSNS機能に必要な操作情報。通知を有効にした場合は端末の通知トークンと選択したアプリ言語</li>
 </ul>
 
 <h2>プライバシーを重視した画像処理</h2>
 <p>Mim はデータ最小化を前提として設計されています。ユーザーが選択した元のフル解像度画像は端末上で処理され、フィード投稿のためにサーバーへアップロードされることはありません。</p>
 
-<p>投稿作成時、選択されたプライバシーモードに応じて、以下のような限定的な表現のみが送信されます：</p>
+<p>写真付きの投稿は送信後に端末内で解析されます。投稿本文、写真の説明、端末内で画像を生成するための構造化された指示を送信します。これには以下が含まれる場合があります：</p>
 <ul>
-<li>不可逆的な意味表現（例：タグや埋め込みベクトル）</li>
-<li>ThumbHash などの低情報量表現</li>
-<li>ユーザーが明示的に選択した場合のみ、低解像度画像（例：64×64 Base64）</li>
+<li>被写体、外見、構図、周囲の状況についての説明</li>
+<li>場面を再現するための生成用プロンプトとモデル設定</li>
+<li>進捗の表示や失敗時の再試行に使う投稿IDと処理状況</li>
 </ul>
 
-<p>これらの表現は、フィード表示およびオンデバイスでの再構築のためにのみ使用されます。フル解像度画像が外部AIサービスに送信されることはありません。</p>
+<p>説明や生成用の指示は閲覧者に共有され、閲覧者の端末で画像を再現するために使われます。元の写真の内容が伝わることがあるため、共有する内容を確認してください。暗号化された非公開メッセージではありません。投稿の元写真はアップロードされず、生成したフィード画像は端末内に保存されます。</p>
 
 <h2>オンデバイスAI処理</h2>
-<p>画像の解析および再構築は主にユーザーの端末上で実行されます。Mim はユーザー画像や個人データを処理するために外部AI APIを使用しません。</p>
+<p>画像の解析および再構築はユーザーの端末上で実行されます。Mim はユーザー画像や個人データを処理するために外部AI APIを使用しません。</p>
 
 <h2>第三者サービスおよびデータ共有</h2>
 <p>Mim は個人データを第三者のAIサービスに販売・貸与・共有することはありません。</p>
 
-<p>本アプリは Cloudflare（Workers、D1、R2 など）を、安全なデータ保存・同期・配信のためのインフラとして使用しています。これらはホスティングおよびバックエンド基盤として機能し、ユーザーコンテンツのAI解析は行いません。</p>
+<p>Cloudflare（Workers、D1、R2）はアカウント管理、投稿の保存・同期、モデルの配信に使用します。Resendはメール認証コードの配信、AppleでサインインとApple Push Notification serviceは認証と任意の通知に使用します。通報の確認に必要な情報をDiscordの内部モデレーション通知へ送る場合があります。これらのサービスでユーザーの写真をAI解析することはありません。</p>
 
 <p>OpenAI、Stability AI などの外部AIプロバイダーへ、ユーザーの個人データや画像が送信されることはありません。</p>
 
@@ -153,9 +153,9 @@ Mim does not use third-party advertising networks and does not sell user data.</
 <h2>ユーザーの同意と管理</h2>
 <p>ユーザーはアプリの主要機能を利用する前に、本プライバシーポリシーおよび利用規約へ同意する必要があります。透明性確保のため、同意状況および日時が記録されます。</p>
 
-<p>投稿前にユーザーはプライバシーモードを明示的に選択します。より高い再構築モードでは、低解像度表現が送信される場合がありますが、これはユーザーの選択に基づきます。</p>
+<p>投稿する内容とプロフィール画像のアップロードはユーザーが選択します。通知の許可は任意です。ダウンロードしたモデル、再現画像のキャッシュ、閲覧者ごとの生成用seedは端末内に保存されます。モデルとキャッシュは設定画面で管理できます。</p>
 
-<p>ユーザーはいつでもアカウントおよび関連データの削除を申請することができます。</p>
+<p>プロフィールの設定からアカウントと関連データを削除できます。サポートへお問い合わせいただくこともできます。</p>
 
 <h2>データセキュリティ</h2>
 <p>すべてのデータは HTTPS による安全な通信で送信されます。ユーザーデータ保護のため、合理的な技術的および組織的措置を講じています。</p>
